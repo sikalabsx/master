@@ -5,8 +5,7 @@ project_name: master
 before:
   hooks:
     - rm -rf ./dist
-    # FIXME: go mod tidy fails so i skipped it for now
-    # - go mod tidy
+    - go mod tidy
     - git push
     - git push --tags
 builds:
