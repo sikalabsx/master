@@ -1,11 +1,25 @@
 package cmd
 
 import (
-	"github.com/ondrejsika/master/cmd/root"
-	_ "github.com/ondrejsika/master/cmd/version"
+	"github.com/ondrejsika/master/version"
+	_ "github.com/sikalabs/slr/cmd"
+	slr_root "github.com/sikalabs/slr/cmd/root"
+	_ "github.com/sikalabs/slu/cmd"
+	slu_root "github.com/sikalabs/slu/cmd/root"
 	"github.com/spf13/cobra"
 )
 
+var Cmd = &cobra.Command{
+	Use:   "master",
+	Short: "master, " + version.Version,
+	Long:  "master (" + version.Version + "): contains master branch of slu and slr",
+}
+
+func init() {
+	Cmd.AddCommand(slu_root.RootCmd)
+	Cmd.AddCommand(slr_root.Cmd)
+}
+
 func Execute() {
-	cobra.CheckErr(root.Cmd.Execute())
+	Cmd.Execute()
 }
