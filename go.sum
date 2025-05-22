@@ -1460,8 +1460,6 @@ github.com/sikalabs/dogsay v0.1.0 h1:ZtRV1bzk0iXgnEPWS8/KSdqykfVWFFeTUZG9TBWVOXs
 github.com/sikalabs/dogsay v0.1.0/go.mod h1:1IhR4v0qIYn925rFuu4TriYbDJxra8H1utFOlmqkhhw=
 github.com/sikalabs/slr v0.18.1-0.20250522064730-5a4ba07cb837 h1:IFFaWV7YlU9sYeRFV0nBe28spQcVoTykm02b/yG0uLw=
 github.com/sikalabs/slr v0.18.1-0.20250522064730-5a4ba07cb837/go.mod h1:nNEHMWP8JASFd2o/C+n44uONt+wWrH0rJanhMdHwEGg=
-github.com/sikalabs/slu v0.85.0 h1:LEmMOlH0ew4iszGJRWTSQL4sKPc0H6bRY9C9TlB1/VY=
-github.com/sikalabs/slu v0.85.0/go.mod h1:mYLsCAq5y4B7a2HAjHaQ4ikCpaj47gnNUNopy3syiug=
 github.com/sikalabs/slu v0.86.0-dev-1.0.20250522153217-d585dc878409 h1:G7rATfeaXcq/lg025nypG0qCdh0Bgu4T7xUTE8jU/3Q=
 github.com/sikalabs/slu v0.86.0-dev-1.0.20250522153217-d585dc878409/go.mod h1:C2rNT5eEw/EBd4y29bU7PpAhwBuG9Fwllq7Sx5BsWbI=
 github.com/sirupsen/logrus v1.0.4-0.20170822132746-89742aefa4b2/go.mod h1:pMByvHTf9Beacp5x1UXfOR9xyW/9antXMhjMPG0dEzc=
