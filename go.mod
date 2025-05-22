@@ -37,7 +37,7 @@ replace (
 
 require (
 	github.com/sikalabs/slr v0.18.1-0.20250522164834-deeeef7ef5f1
-	github.com/sikalabs/slu v0.86.0-dev-1.0.20250522195854-49476f99ce5d
+	github.com/sikalabs/slu v0.86.0-dev-1.0.20250522204339-63e51e4b613b
 	github.com/spf13/cobra v1.9.1
 )
 
@@ -274,7 +274,7 @@ require (
 	github.com/qeesung/image2ascii v1.0.1 // indirect
 	github.com/r3labs/diff/v3 v3.0.1 // indirect
 	github.com/radovskyb/watcher v1.0.7 // indirect
-	github.com/redis/go-redis/v9 v9.7.1 // indirect
+	github.com/redis/go-redis/v9 v9.7.3 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/rs/zerolog v1.33.0 // indirect
