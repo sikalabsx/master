@@ -15,7 +15,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          password: ${{ secrets.GH_PAT_GORELEASER }}
+          password: ${{ secrets.GH_PAT_GHCR }}
       - uses: actions/setup-go@v5
         with:
           go-version: 1.24
