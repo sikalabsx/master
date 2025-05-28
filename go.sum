@@ -1489,6 +1489,8 @@ github.com/bodgit/windows v1.0.1/go.mod h1:a6JLwrB4KrTR5hBpp8FI9/9W9jJfeQ2h4XDXU
 github.com/bombsimon/logrusr/v4 v4.1.0 h1:uZNPbwusB0eUXlO8hIUwStE6Lr5bLN6IgYgG+75kuh4=
 github.com/bombsimon/logrusr/v4 v4.1.0/go.mod h1:pjfHC5e59CvjTBIU3V3sGhFWFAnsnhOR03TRc6im0l8=
 github.com/boombuler/barcode v1.0.0/go.mod h1:paBWMcWSl3LHKBqUq+rly7CNSldXjb2rDl3JlRe0mD8=
+github.com/boombuler/barcode v1.0.1-0.20190219062509-6c824513bacc/go.mod h1:paBWMcWSl3LHKBqUq+rly7CNSldXjb2rDl3JlRe0mD8=
+github.com/boombuler/barcode v1.0.1 h1:NDBbPmhS+EqABEs5Kg3n/5ZNjy73Pz7SIV+KCeqyXcs=
 github.com/boombuler/barcode v1.0.1/go.mod h1:paBWMcWSl3LHKBqUq+rly7CNSldXjb2rDl3JlRe0mD8=
 github.com/bradleyfalzon/ghinstallation/v2 v2.14.0 h1:0D4vKCHOvYrDU8u61TnE2JfNT4VRrBLphmxtqazTO+M=
 github.com/bradleyfalzon/ghinstallation/v2 v2.14.0/go.mod h1:LOVmdZYVZ8jqdr4n9wWm1ocDiMz9IfMGfRkaYC1a52A=
@@ -2824,6 +2826,8 @@ github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55/go.mod h1:Om
 github.com/pquerna/cachecontrol v0.1.0/go.mod h1:NrUG3Z7Rdu85UNR3vm7SOsl1nFIeSiQnrHV5K9mBcUI=
 github.com/pquerna/cachecontrol v0.2.0 h1:vBXSNuE5MYP9IJ5kjsdo8uq+w41jSPgvba2DEnkRx9k=
 github.com/pquerna/cachecontrol v0.2.0/go.mod h1:NrUG3Z7Rdu85UNR3vm7SOsl1nFIeSiQnrHV5K9mBcUI=
+github.com/pquerna/otp v1.5.0 h1:NMMR+WrmaqXU4EzdGJEE1aUUI0AMRzsp96fFFWNPwxs=
+github.com/pquerna/otp v1.5.0/go.mod h1:dkJfzwRKNiegxyNb54X/3fLwhCynbMspSyWKnvi1AEg=
 github.com/prashantv/gostub v1.1.0/go.mod h1:A5zLQHz7ieHGG7is6LLXLz7I8+3LZzsrV0P1IAHhP5U=
 github.com/prometheus/alertmanager v0.24.0/go.mod h1:r6fy/D7FRuZh5YbnX6J3MBY0eI4Pb5yPYS7/bPSXXqI=
 github.com/prometheus/client_golang v0.0.0-20180209125602-c332b6f63c06/go.mod h1:7SWBe2y4D6OKWSNQJUaRYU/AaXPKyh/dDVn+NZz0KFw=
@@ -2981,8 +2985,8 @@ github.com/sikalabs/dogsay v0.1.0 h1:ZtRV1bzk0iXgnEPWS8/KSdqykfVWFFeTUZG9TBWVOXs
 github.com/sikalabs/dogsay v0.1.0/go.mod h1:1IhR4v0qIYn925rFuu4TriYbDJxra8H1utFOlmqkhhw=
 github.com/sikalabs/slr v0.18.1-0.20250522164834-deeeef7ef5f1 h1:rOJ/DhRE1szAbbq9pNPmWxDge8SOx0vYMZmVxZEVbw0=
 github.com/sikalabs/slr v0.18.1-0.20250522164834-deeeef7ef5f1/go.mod h1:nNEHMWP8JASFd2o/C+n44uONt+wWrH0rJanhMdHwEGg=
-github.com/sikalabs/slu v0.86.1-0.20250527201622-1c61d217940e h1:sQjjixLCXjzM1HTJXE2V7WB3eFA7QNwoW5OY46V+T1o=
-github.com/sikalabs/slu v0.86.1-0.20250527201622-1c61d217940e/go.mod h1:5vnjJvpd06FQJ5Sl6xDaqkt262Cozh3AWwg9a/FP8vQ=
+github.com/sikalabs/slu v0.86.1-0.20250528065533-a7070838c312 h1:FFaHjlClpUALUMX4FUPp1XUSLm3gsJFx9/Z+FbKfHo8=
+github.com/sikalabs/slu v0.86.1-0.20250528065533-a7070838c312/go.mod h1:RH+EsJBZ3isqqNv0homMPDgigpe1n+bc0X7JsNZsp04=
 github.com/sikalabs/tergum v0.41.1-0.20250521181537-6389034a6c2b h1:3insMjnUULWY+dNDBgFWPzcL/m3aqgJ1CIOynETYDvs=
 github.com/sikalabs/tergum v0.41.1-0.20250521181537-6389034a6c2b/go.mod h1:GFwk+J3GpzJ5+aGRZbdtwpl5a1EUPodlu2T87sp5s3U=
 github.com/sirupsen/logrus v1.0.4-0.20170822132746-89742aefa4b2/go.mod h1:pMByvHTf9Beacp5x1UXfOR9xyW/9antXMhjMPG0dEzc=
