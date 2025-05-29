@@ -6,6 +6,7 @@
 .idea
 
 # Generic
+*.local.sh
 *.log
 *.backup
 
