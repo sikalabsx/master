@@ -14,7 +14,7 @@ import (
 var Cmd = &cobra.Command{
 	Use:   "master",
 	Short: "master, " + version.Version,
-	Long:  "master (" + version.Version + "): contains master branch of slu and slr",
+	Long:  "master (" + version.Version + "): contains master branch of slu, slr, and tergum",
 }
 
 func init() {
