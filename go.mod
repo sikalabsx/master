@@ -37,7 +37,7 @@ replace (
 
 require (
 	github.com/sikalabs/slr v0.18.1-0.20250522164834-deeeef7ef5f1
-	github.com/sikalabs/slu v0.86.1-0.20250528065533-a7070838c312
+	github.com/sikalabs/slu v0.86.1-0.20250529171349-e9ee381c7c61
 	github.com/sikalabs/tergum v0.41.1-0.20250521181537-6389034a6c2b
 	github.com/spf13/cobra v1.9.1
 )
@@ -78,7 +78,7 @@ require (
 	github.com/alecthomas/kingpin/v2 v2.4.0 // indirect
 	github.com/alecthomas/units v0.0.0-20240927000941-0f3dac36c52b // indirect
 	github.com/aquasecurity/go-version v0.0.0-20210121072130-637058cfe492 // indirect
-	github.com/argoproj/argo-cd/v3 v3.0.3 // indirect
+	github.com/argoproj/argo-cd/v3 v3.0.4 // indirect
 	github.com/argoproj/gitops-engine v0.7.1-0.20250520182409-89c110b5952e // indirect
 	github.com/argoproj/pkg v0.13.7-0.20250305113207-cbc37dc61de5 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
