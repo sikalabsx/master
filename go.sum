@@ -2770,8 +2770,8 @@ github.com/openzipkin/zipkin-go v0.1.6/go.mod h1:QgAqvLzwWbR/WpD4A3cGpPtJrZXNIiJ
 github.com/openzipkin/zipkin-go v0.2.1/go.mod h1:NaW6tEwdmWMaCDZzg8sh+IBNOxHMPnhQw8ySjnjRyN4=
 github.com/openzipkin/zipkin-go v0.2.2/go.mod h1:NaW6tEwdmWMaCDZzg8sh+IBNOxHMPnhQw8ySjnjRyN4=
 github.com/orisano/pixelmatch v0.0.0-20220722002657-fb0b55479cde/go.mod h1:nZgzbfBr3hhjoZnS66nKrHmduYNpc34ny7RK4z5/HM0=
-github.com/osteele/gojekyll v0.2.14 h1:z9LBB/Yd4zKheCymE9CgmYeKFndyq0w8Rii9j+u3J/k=
-github.com/osteele/gojekyll v0.2.14/go.mod h1:lVv5jmA2ZXl5hdbgBFH19oVeZtf79tMJsGnXTv/FqNU=
+github.com/osteele/gojekyll v0.2.16 h1:QAOqC6HrUEbJvIJpSWbr79vzOmOgffuKdl/Y47SCrLc=
+github.com/osteele/gojekyll v0.2.16/go.mod h1:SRtdXoyAUn/qh94KHiroyaWPnXsHfUCc9o55ucaY6Mg=
 github.com/osteele/liquid v1.6.0 h1:bTsbZjPIr7F+pU+K6o//Y5//W4McMzvUlMXWGOVvpc0=
 github.com/osteele/liquid v1.6.0/go.mod h1:xU0Z2dn2hOQIEFEWNmeltOmCtfhtoW/2fCyiNQeNG+U=
 github.com/osteele/tuesday v1.0.3 h1:SrCmo6sWwSgnvs1bivmXLvD7Ko9+aJvvkmDjB5G4FTU=
@@ -2983,8 +2983,8 @@ github.com/shurcooL/sanitized_anchor_name v1.0.0/go.mod h1:1NzhyTcUVG4SuEtjjoZeV
 github.com/shurcooL/vfsgen v0.0.0-20200824052919-0d455de96546/go.mod h1:TrYk7fJVaAttu97ZZKrO9UbRa8izdowaMIZcxYMbVaw=
 github.com/sikalabs/dogsay v0.1.0 h1:ZtRV1bzk0iXgnEPWS8/KSdqykfVWFFeTUZG9TBWVOXs=
 github.com/sikalabs/dogsay v0.1.0/go.mod h1:1IhR4v0qIYn925rFuu4TriYbDJxra8H1utFOlmqkhhw=
-github.com/sikalabs/slr v0.18.1-0.20250529201341-260332910b00 h1:+xO8FeWv2wGPBlhc8w/8MQ9FTjfFg/GLvh15cqqFCOw=
-github.com/sikalabs/slr v0.18.1-0.20250529201341-260332910b00/go.mod h1:nNEHMWP8JASFd2o/C+n44uONt+wWrH0rJanhMdHwEGg=
+github.com/sikalabs/slr v0.19.0 h1:OyMcCmV1hKTQo1YCZbua8sT9Wuc2LKsksjnAfSRj/oQ=
+github.com/sikalabs/slr v0.19.0/go.mod h1:qYC5iRpRS9S6c9PjdmKPYJmKD0YrceMsJjwZpE2nB7E=
 github.com/sikalabs/slu v0.87.1-0.20250604052450-fe2d3b8ddaa2 h1:vDqVJhqx60oneXnmQ6G4IOv4C2IGOgFNA3/UcKroAWo=
 github.com/sikalabs/slu v0.87.1-0.20250604052450-fe2d3b8ddaa2/go.mod h1:F/zw+5JyO0ycdCJDj6mfZqve9kDZchqVL28gabMRygc=
 github.com/sikalabs/tergum v0.41.1-0.20250521181537-6389034a6c2b h1:3insMjnUULWY+dNDBgFWPzcL/m3aqgJ1CIOynETYDvs=
@@ -3086,8 +3086,8 @@ github.com/tdewolff/minify v2.3.6+incompatible h1:2hw5/9ZvxhWLvBUnHE06gElGYz+Jv9
 github.com/tdewolff/minify v2.3.6+incompatible/go.mod h1:9Ov578KJUmAWpS6NeZwRZyT56Uf6o3Mcz9CEsg8USYs=
 github.com/tdewolff/parse v2.3.4+incompatible h1:x05/cnGwIMf4ceLuDMBOdQ1qGniMoxpP46ghf0Qzh38=
 github.com/tdewolff/parse v2.3.4+incompatible/go.mod h1:8oBwCsVmUkgHO8M5iCzSIDtpzXOT0WXX9cWhz+bIzJQ=
-github.com/tdewolff/test v1.0.10 h1:uWiheaLgLcNFqHcdWveum7PQfMnIUTf9Kl3bFxrIoew=
-github.com/tdewolff/test v1.0.10/go.mod h1:6DAvZliBAAnD7rhVgwaM7DE5/d9NMOAJ09SqYqeK4QE=
+github.com/tdewolff/test v1.0.11 h1:FdLbwQVHxqG16SlkGveC0JVyrJN62COWTRyUFzfbtBE=
+github.com/tdewolff/test v1.0.11/go.mod h1:XPuWBzvdUzhCuxWO1ojpXsyzsA5bFoS3tO/Q3kFuTG8=
 github.com/tidwall/pretty v1.0.0/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
 github.com/tidwall/transform v0.0.0-20201103190739-32f242e2dbde h1:AMNpJRc7P+GTwVbl8DkK2I9I8BBUzNiHuH/tlxrpan0=
 github.com/tidwall/transform v0.0.0-20201103190739-32f242e2dbde/go.mod h1:MvrEmduDUz4ST5pGZ7CABCnOU5f3ZiOAZzT6b1A6nX8=

@@ -36,7 +36,7 @@ replace (
 )
 
 require (
-	github.com/sikalabs/slr v0.18.1-0.20250529201341-260332910b00
+	github.com/sikalabs/slr v0.19.0
 	github.com/sikalabs/slu v0.87.1-0.20250604052450-fe2d3b8ddaa2
 	github.com/sikalabs/tergum v0.41.1-0.20250521181537-6389034a6c2b
 	github.com/spf13/cobra v1.9.1
@@ -263,7 +263,7 @@ require (
 	github.com/ondrejsika/notion-backup v0.2.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0 // indirect
-	github.com/osteele/gojekyll v0.2.14 // indirect
+	github.com/osteele/gojekyll v0.2.16 // indirect
 	github.com/osteele/liquid v1.6.0 // indirect
 	github.com/osteele/tuesday v1.0.3 // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
