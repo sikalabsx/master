@@ -2985,8 +2985,8 @@ github.com/sikalabs/dogsay v0.1.0 h1:ZtRV1bzk0iXgnEPWS8/KSdqykfVWFFeTUZG9TBWVOXs
 github.com/sikalabs/dogsay v0.1.0/go.mod h1:1IhR4v0qIYn925rFuu4TriYbDJxra8H1utFOlmqkhhw=
 github.com/sikalabs/slr v0.19.0 h1:OyMcCmV1hKTQo1YCZbua8sT9Wuc2LKsksjnAfSRj/oQ=
 github.com/sikalabs/slr v0.19.0/go.mod h1:qYC5iRpRS9S6c9PjdmKPYJmKD0YrceMsJjwZpE2nB7E=
-github.com/sikalabs/slu v0.87.1-0.20250616174510-1ac7018ae69a h1:mePzghI0jF3zz94wJgAOA/EzHQYCpRgi0wMROB2xZ0Y=
-github.com/sikalabs/slu v0.87.1-0.20250616174510-1ac7018ae69a/go.mod h1:F/zw+5JyO0ycdCJDj6mfZqve9kDZchqVL28gabMRygc=
+github.com/sikalabs/slu v0.87.1-0.20250616185545-4fabafb990b6 h1:QSJQLoPqefGQqPDCw94UE1kuXuEsnup7RKk9r063fR8=
+github.com/sikalabs/slu v0.87.1-0.20250616185545-4fabafb990b6/go.mod h1:F/zw+5JyO0ycdCJDj6mfZqve9kDZchqVL28gabMRygc=
 github.com/sikalabs/tergum v0.41.1-0.20250521181537-6389034a6c2b h1:3insMjnUULWY+dNDBgFWPzcL/m3aqgJ1CIOynETYDvs=
 github.com/sikalabs/tergum v0.41.1-0.20250521181537-6389034a6c2b/go.mod h1:GFwk+J3GpzJ5+aGRZbdtwpl5a1EUPodlu2T87sp5s3U=
 github.com/sirupsen/logrus v1.0.4-0.20170822132746-89742aefa4b2/go.mod h1:pMByvHTf9Beacp5x1UXfOR9xyW/9antXMhjMPG0dEzc=
