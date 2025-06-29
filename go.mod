@@ -37,7 +37,7 @@ replace (
 
 require (
 	github.com/sikalabs/slr v0.19.0
-	github.com/sikalabs/slu v0.87.1-0.20250617072522-67bdb7c431c0
+	github.com/sikalabs/slu v0.88.1-0.20250629084923-6f36f3e02793
 	github.com/sikalabs/tergum v0.41.1-0.20250521181537-6389034a6c2b
 	github.com/spf13/cobra v1.9.1
 )
@@ -101,7 +101,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/chai2010/gettext-go v1.0.2 // indirect
 	github.com/cheggaaa/pb/v3 v3.1.7 // indirect
-	github.com/cloudflare/circl v1.6.0 // indirect
+	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/cloudflare/cloudflare-go v0.115.0 // indirect
 	github.com/coreos/go-oidc v2.3.0+incompatible // indirect
 	github.com/coreos/go-oidc/v3 v3.13.0 // indirect
