@@ -36,7 +36,7 @@ replace (
 )
 
 require (
-	github.com/sikalabs/slr v0.19.0
+	github.com/sikalabs/slr v0.22.1-0.20250819152257-5c48d35a88fc
 	github.com/sikalabs/slu v0.88.1-0.20250629084923-6f36f3e02793
 	github.com/sikalabs/tergum v0.41.1-0.20250521181537-6389034a6c2b
 	github.com/spf13/cobra v1.9.1
@@ -69,7 +69,7 @@ require (
 	github.com/AzureAD/microsoft-authentication-library-for-go v1.4.2 // indirect
 	github.com/ChrisTrenkamp/goxpath v0.0.0-20210404020558-97928f7e12b6 // indirect
 	github.com/MakeNowJust/heredoc v1.0.0 // indirect
-	github.com/Masterminds/semver/v3 v3.3.1 // indirect
+	github.com/Masterminds/semver/v3 v3.4.0 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/ProtonMail/go-crypto v1.1.5 // indirect
 	github.com/VividCortex/ewma v1.2.0 // indirect
@@ -193,8 +193,8 @@ require (
 	github.com/hashicorp/go-secure-stdlib/strutil v0.1.2 // indirect
 	github.com/hashicorp/go-sockaddr v1.0.7 // indirect
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
-	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/hashicorp/vault/api v1.16.0 // indirect
+	github.com/hashicorp/hcl v1.0.1-vault-7 // indirect
+	github.com/hashicorp/vault/api v1.20.0 // indirect
 	github.com/heroku/docker-registry-client v0.0.0-20211012143308-9463674c8930 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
@@ -276,10 +276,10 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
 	github.com/pquerna/cachecontrol v0.2.0 // indirect
 	github.com/pquerna/otp v1.5.0 // indirect
-	github.com/prometheus/client_golang v1.22.0 // indirect
-	github.com/prometheus/client_model v0.6.1 // indirect
-	github.com/prometheus/common v0.62.0 // indirect
-	github.com/prometheus/procfs v0.15.1 // indirect
+	github.com/prometheus/client_golang v1.23.0 // indirect
+	github.com/prometheus/client_model v0.6.2 // indirect
+	github.com/prometheus/common v0.65.0 // indirect
+	github.com/prometheus/procfs v0.16.1 // indirect
 	github.com/prometheus/prometheus v0.35.0 // indirect
 	github.com/qeesung/image2ascii v1.0.1 // indirect
 	github.com/r3labs/diff/v3 v3.0.1 // indirect
