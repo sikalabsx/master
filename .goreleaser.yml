@@ -18,7 +18,7 @@ builds:
     ldflags:
       - -s
       - -w
-      - -X github.com/ondrejsika/master/version.Version=v{{.Version}}
+      - -X github.com/sikalabsx/master/version.Version=v{{.Version}}
     goos:
       - windows
       - linux
@@ -58,13 +58,13 @@ brews:
   -
     name: master
     repository:
-      owner: ondrejsika
+      owner: sikalabsx
       name: homebrew-tap
     skip_upload: auto
-    homepage: https://github.com/ondrejsika/master
-    url_template: "https://github.com/ondrejsika/master/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    homepage: https://github.com/sikalabsx/master
+    url_template: "https://github.com/sikalabsx/master/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     directory: Formula
-    caveats: "How to use this binary: https://github.com/ondrejsika/master"
+    caveats: "How to use this binary: https://github.com/sikalabsx/master"
     description: "master"
     install: |
       bin.install "master"
@@ -76,7 +76,7 @@ dockers:
       goos: linux
       goarch: amd64
       image_templates:
-        - "ghcr.io/ondrejsika/master:{{ .Tag }}"
+        - "ghcr.io/sikalabsx/master:{{ .Tag }}"
       dockerfile: Dockerfile.goreleaser
       ids:
         - master
@@ -90,12 +90,12 @@ dockers:
         - "--label=org.label-schema.version={{.Version}}"
         - "--label=org.label-schema.name={{.ProjectName}}"
         - "--label=com.github.actions.name={{.ProjectName}}"
-        - "--label=repository=https://github.com/ondrejsika/master"
+        - "--label=repository=https://github.com/sikalabsx/master"
         - "--label=maintainer=Ondrej Sika &lt;ondrej@sika.io&gt;"
     - goos: linux
       goarch: arm64
       image_templates:
-        - "ghcr.io/ondrejsika/master:{{ .Tag }}-arm64v8"
+        - "ghcr.io/sikalabsx/master:{{ .Tag }}-arm64v8"
       dockerfile: Dockerfile.goreleaser.arm64v8
       ids:
         - master
@@ -109,5 +109,5 @@ dockers:
         - "--label=org.label-schema.version={{.Version}}"
         - "--label=org.label-schema.name={{.ProjectName}}"
         - "--label=com.github.actions.name={{.ProjectName}}"
-        - "--label=repository=https://github.com/ondrejsika/master"
+        - "--label=repository=https://github.com/sikalabsx/master"
         - "--label=maintainer=Ondrej Sika &lt;ondrej@sika.io&gt;"
