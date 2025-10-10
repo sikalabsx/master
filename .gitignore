@@ -11,7 +11,10 @@
 *.backup
 
 # Go
-master
+/master
+/master_slu
+/master_slr
+/master_tergum
 *.exe
 /dist/**
 cobra-docs
