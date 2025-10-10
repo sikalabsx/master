@@ -18,7 +18,7 @@ jobs:
           password: ${{ secrets.GH_PAT_GHCR }}
       - uses: actions/setup-go@v5
         with:
-          go-version: 1.24
+          go-version: 1.25
       - uses: goreleaser/goreleaser-action@v6
         with:
           args: release --skip before
