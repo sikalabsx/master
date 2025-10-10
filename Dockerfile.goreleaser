@@ -1,3 +1,6 @@
 FROM debian:13-slim
 LABEL org.opencontainers.image.source="https://github.com/ondrejsika/master"
 COPY master /usr/local/bin/
+COPY master_slu /usr/local/bin/
+COPY master_slr /usr/local/bin/
+COPY master_tergum /usr/local/bin/
