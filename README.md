@@ -1,6 +1,6 @@
 # sikalabsx/master
 
-This project contains the binaries of the `master` branch of the SikaLabs tools. It's intended to be used for quick installation of the latest development version without need of the release.
+This project contains the binaries of the `master` branch of the SikaLabs tools [slu](https://github.com/sikalabs/slu), [slr](https://github.com/sikalabs/slr), and [tergum](https://github.com/sikalabs/tergum). It's intended to be used for quick installation of the latest development version without need of the release.
 
 ## Install on Mac
 
