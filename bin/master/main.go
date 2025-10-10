@@ -1,7 +1,6 @@
-package cmd
+package main
 
 import (
-	"github.com/ondrejsika/master/version"
 	_ "github.com/sikalabs/slr/cmd"
 	slr_root "github.com/sikalabs/slr/cmd/root"
 	_ "github.com/sikalabs/slu/cmd"
@@ -14,8 +13,7 @@ import (
 
 var Cmd = &cobra.Command{
 	Use:   "master",
-	Short: "master, " + version.Version,
-	Long:  "master (" + version.Version + "): contains master branch of slu, slr, and tergum",
+	Short: "master: contains master branch of slu, slr, and tergum",
 }
 
 func init() {
@@ -27,4 +25,8 @@ func init() {
 
 func Execute() {
 	Cmd.Execute()
+}
+
+func main() {
+	Execute()
 }
