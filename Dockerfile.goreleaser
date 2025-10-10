@@ -1,5 +1,5 @@
 FROM debian:13-slim
-LABEL org.opencontainers.image.source="https://github.com/ondrejsika/master"
+LABEL org.opencontainers.image.source="https://github.com/sikalabsx/master"
 COPY master /usr/local/bin/
 COPY master_slu /usr/local/bin/
 COPY master_slr /usr/local/bin/
