@@ -16,3 +16,15 @@ slu ib master_slu
 slu ib master_slr
 slu ib master_tergum
 ```
+
+## Build Locally
+
+```bash
+make build-all
+```
+
+## Update Dependencies
+
+```bash
+make update-deps
+```
