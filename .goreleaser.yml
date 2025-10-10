@@ -9,7 +9,8 @@ before:
     - git push
     - git push --tags
 builds:
-  -
+  - id: master
+    main: ./bin/master
     env:
       - CGO_ENABLED=0
     mod_timestamp: "{{ .CommitTimestamp }}"
@@ -18,34 +19,73 @@ builds:
     ldflags:
       - -s
       - -w
-      - -X github.com/sikalabsx/master/version.Version=v{{.Version}}
     goos:
-      - windows
       - linux
       - darwin
     goarch:
       - amd64
-      - "386"
-      - arm
       - arm64
-    goarm:
-      - "6"
-      - "7"
-    ignore:
-      - goos: darwin
-        goarch: "386"
-      - goos: windows
-        goarch: "arm"
-      - goos: windows
-        goarch: "arm64"
-      - goos: linux
-        goarch: arm
-        goarm: "6"
     binary: master
+  - id: master_slu
+    main: ./bin/master_slu
+    env:
+      - CGO_ENABLED=0
+    mod_timestamp: "{{ .CommitTimestamp }}"
+    flags:
+      - -trimpath
+    ldflags:
+      - -s
+      - -w
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    binary: master_slu
+  - id: master_slr
+    main: ./bin/master_slr
+    env:
+      - CGO_ENABLED=0
+    mod_timestamp: "{{ .CommitTimestamp }}"
+    flags:
+      - -trimpath
+    ldflags:
+      - -s
+      - -w
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    binary: master_slr
+  - id: master_tergum
+    main: ./bin/master_tergum
+    env:
+      - CGO_ENABLED=0
+    mod_timestamp: "{{ .CommitTimestamp }}"
+    flags:
+      - -trimpath
+    ldflags:
+      - -s
+      - -w
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    binary: master_tergum
 
 archives:
   - formats: [ "tar.gz" ]
     name_template: "{{ .ProjectName }}_v{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    ids:
+      - master
+      - master_slu
+      - master_slr
+      - master_tergum
 
 release:
   prerelease: auto
@@ -68,6 +108,9 @@ brews:
     description: "master"
     install: |
       bin.install "master"
+      bin.install "master_slu"
+      bin.install "master_slr"
+      bin.install "master_tergum"
     test: |
       system "#{bin}/master version"
 
@@ -80,6 +123,9 @@ dockers:
       dockerfile: Dockerfile.goreleaser
       ids:
         - master
+        - master_slu
+        - master_slr
+        - master_tergum
       build_flag_templates:
         - "--platform=linux/amd64"
         - "--label=org.opencontainers.image.created={{.Date}}"
@@ -99,6 +145,9 @@ dockers:
       dockerfile: Dockerfile.goreleaser.arm64v8
       ids:
         - master
+        - master_slu
+        - master_slr
+        - master_tergum
       build_flag_templates:
         - "--platform=linux/arm64"
         - "--label=org.opencontainers.image.created={{.Date}}"
