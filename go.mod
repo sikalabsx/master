@@ -1,4 +1,4 @@
-module github.com/ondrejsika/master
+module github.com/sikalabsx/master
 
 go 1.24.6
 
