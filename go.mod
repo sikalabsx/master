@@ -34,9 +34,9 @@ replace (
 )
 
 require (
-	github.com/sikalabs/slr v0.27.1-0.20251106013516-3db429a8efd8
-	github.com/sikalabs/slu v0.94.1-0.20251105181307-0bed2f10582e
-	github.com/sikalabs/tergum v0.42.1-0.20251101181152-1b605b248409
+	github.com/sikalabs/slr v0.29.1-0.20251112191252-8f737cafec78
+	github.com/sikalabs/slu v0.95.1-0.20251119230927-4a57afa459d9
+	github.com/sikalabs/tergum v0.42.1-0.20251107105542-51ffe1a02009
 	github.com/spf13/cobra v1.10.1
 )
 
@@ -315,6 +315,7 @@ require (
 	github.com/showwin/speedtest-go v1.7.10 // indirect
 	github.com/sikalabs/dogsay v0.1.0 // indirect
 	github.com/sikalabs/sikalabs-crypt-go v0.0.0-20251105174759-2ff0fb3fb552 // indirect
+	github.com/sikalabs/sikalabs-kubernetes-homepage v0.0.0-20251106121505-ca9e5b9ed6f8 // indirect
 	github.com/sikalabsx/sikalabs-encrypted-go v0.0.0-20251106010222-3ae1cb81d0b1 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/skeema/knownhosts v1.3.1 // indirect
