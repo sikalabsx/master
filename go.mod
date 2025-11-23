@@ -34,8 +34,8 @@ replace (
 )
 
 require (
-	github.com/sikalabs/slr v0.29.1-0.20251112191252-8f737cafec78
-	github.com/sikalabs/slu v0.95.1-0.20251120070111-de197a05ef66
+	github.com/sikalabs/slr v0.29.1-0.20251120191534-936ec4ce72a1
+	github.com/sikalabs/slu v0.95.1-0.20251123235425-accb427e4dfa
 	github.com/sikalabs/tergum v0.42.1-0.20251107105542-51ffe1a02009
 	github.com/spf13/cobra v1.10.1
 )
@@ -345,14 +345,14 @@ require (
 	go.uber.org/atomic v1.11.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.43.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8 // indirect
-	golang.org/x/net v0.46.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/oauth2 v0.32.0 // indirect
-	golang.org/x/sync v0.17.0 // indirect
-	golang.org/x/sys v0.37.0 // indirect
-	golang.org/x/term v0.36.0 // indirect
-	golang.org/x/text v0.30.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.14.0 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20221104135756-97bc4ad4a1cb // indirect
