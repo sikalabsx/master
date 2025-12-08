@@ -34,8 +34,8 @@ replace (
 )
 
 require (
-	github.com/sikalabs/slr v0.30.1-0.20251124002211-3711862e819b
-	github.com/sikalabs/slu v0.95.1-0.20251124001817-5039c6b10463
+	github.com/sikalabs/slr v0.30.1-0.20251208162226-1d9aca74cf04
+	github.com/sikalabs/slu v0.95.2
 	github.com/sikalabs/tergum v0.42.1-0.20251107105542-51ffe1a02009
 	github.com/spf13/cobra v1.10.1
 )
@@ -73,26 +73,27 @@ require (
 	github.com/argoproj/pkg/v2 v2.0.1 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aws/aws-sdk-go v1.55.8 // indirect
-	github.com/aws/aws-sdk-go-v2 v1.39.5 // indirect
-	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.2 // indirect
-	github.com/aws/aws-sdk-go-v2/config v1.31.16 // indirect
-	github.com/aws/aws-sdk-go-v2/credentials v1.18.20 // indirect
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.12 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.40.1 // indirect
+	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.4 // indirect
+	github.com/aws/aws-sdk-go-v2/config v1.32.2 // indirect
+	github.com/aws/aws-sdk-go-v2/credentials v1.19.3 // indirect
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.15 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.20.2 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.12 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.12 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.15 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.15 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.4 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.12 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.3 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.12 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.12 // indirect
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.89.1 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.15 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.6 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.15 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.15 // indirect
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.93.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.39.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sso v1.30.0 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.35.4 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sts v1.39.0 // indirect
-	github.com/aws/smithy-go v1.23.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/signin v1.0.3 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sso v1.30.6 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.35.11 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sts v1.41.3 // indirect
+	github.com/aws/smithy-go v1.24.0 // indirect
 	github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bep/godartsass/v2 v2.5.0 // indirect
@@ -278,6 +279,7 @@ require (
 	github.com/ondrejsika/go-iceland v0.2.0 // indirect
 	github.com/ondrejsika/gosendmail v0.4.0 // indirect
 	github.com/ondrejsika/notion-backup v0.2.0 // indirect
+	github.com/ondrejsikax/simple-key-value-storage v0.0.0-20251208155642-bff3fa861e60 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/osteele/gojekyll v0.2.16 // indirect
@@ -302,7 +304,7 @@ require (
 	github.com/r3labs/diff/v3 v3.0.2 // indirect
 	github.com/rabbitmq/amqp091-go v1.10.0 // indirect
 	github.com/radovskyb/watcher v1.0.7 // indirect
-	github.com/redis/go-redis/v9 v9.8.0 // indirect
+	github.com/redis/go-redis/v9 v9.17.2 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/robfig/cron/v3 v3.0.2-0.20210106135023-bc59245fe10e // indirect
 	github.com/rs/zerolog v1.34.0 // indirect
@@ -348,7 +350,7 @@ require (
 	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8 // indirect
 	golang.org/x/net v0.47.0 // indirect
-	golang.org/x/oauth2 v0.32.0 // indirect
+	golang.org/x/oauth2 v0.33.0 // indirect
 	golang.org/x/sync v0.18.0 // indirect
 	golang.org/x/sys v0.38.0 // indirect
 	golang.org/x/term v0.37.0 // indirect
