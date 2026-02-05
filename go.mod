@@ -34,7 +34,7 @@ replace (
 )
 
 require (
-	github.com/sikalabs/slr v0.33.1-0.20260205080344-85b97c24eb13
+	github.com/sikalabs/slr v0.33.1-0.20260205224423-bd32eb08b854
 	github.com/sikalabs/slu v0.97.1-0.20260205173328-bdebf7e13249
 	github.com/sikalabs/tergum v0.42.1-0.20260202091656-0b98d9876f1a
 	github.com/spf13/cobra v1.10.2
