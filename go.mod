@@ -34,8 +34,8 @@ replace (
 )
 
 require (
-	github.com/sikalabs/slr v0.33.1-0.20260205224423-bd32eb08b854
-	github.com/sikalabs/slu v0.97.1-0.20260205173328-bdebf7e13249
+	github.com/sikalabs/slr v0.33.1-0.20260205230049-6fbb837369c0
+	github.com/sikalabs/slu v0.97.1-0.20260205230314-a8050906a8ad
 	github.com/sikalabs/tergum v0.42.1-0.20260202091656-0b98d9876f1a
 	github.com/spf13/cobra v1.10.2
 )
@@ -250,7 +250,7 @@ require (
 	github.com/k0sproject/rig v0.21.0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
-	github.com/klauspost/compress v1.18.1 // indirect
+	github.com/klauspost/compress v1.18.3 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/kyokomi/emoji v2.2.4+incompatible // indirect
 	github.com/lib/pq v1.10.9 // indirect

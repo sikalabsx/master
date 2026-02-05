@@ -1018,8 +1018,8 @@ github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+o
 github.com/klauspost/compress v1.4.0/go.mod h1:RyIbtBH6LamlWaDj8nUwkbUhJ87Yi3uG0guNDohfE1A=
 github.com/klauspost/compress v1.4.1/go.mod h1:RyIbtBH6LamlWaDj8nUwkbUhJ87Yi3uG0guNDohfE1A=
 github.com/klauspost/compress v1.13.6/go.mod h1:/3/Vjq9QcHkK5uEr5lBEmyoZ1iFhe47etQ6QUkpK6sk=
-github.com/klauspost/compress v1.18.1 h1:bcSGx7UbpBqMChDtsF28Lw6v/G94LPrrbMbdC3JH2co=
-github.com/klauspost/compress v1.18.1/go.mod h1:ZQFFVG+MdnR0P+l6wpXgIL4NTtwiKIdBnrBd8Nrxr+0=
+github.com/klauspost/compress v1.18.3 h1:9PJRvfbmTabkOX8moIpXPbMMbYN60bWImDDU7L+/6zw=
+github.com/klauspost/compress v1.18.3/go.mod h1:R0h/fSBs8DE4ENlcrlib3PsXS61voFxhIs2DeRhCvJ4=
 github.com/klauspost/cpuid v0.0.0-20180405133222-e7e905edc00e/go.mod h1:Pj4uuM528wm8OyEC2QMXAi2YiTZ96dNQPGgoMS4s3ek=
 github.com/klauspost/cpuid v1.2.0/go.mod h1:Pj4uuM528wm8OyEC2QMXAi2YiTZ96dNQPGgoMS4s3ek=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
@@ -1304,10 +1304,10 @@ github.com/sikalabs/sikalabs-crypt-go v0.0.0-20251105174759-2ff0fb3fb552 h1:EiLC
 github.com/sikalabs/sikalabs-crypt-go v0.0.0-20251105174759-2ff0fb3fb552/go.mod h1:TrthX6be5utClxOieSRN8T3DOlFZ1oaK/9Ye2oCFaFg=
 github.com/sikalabs/sikalabs-kubernetes-homepage v0.0.0-20251106121505-ca9e5b9ed6f8 h1:2iNP8yOVnpc+aLw/cTaqzkLWCh3bwiRC7w4Va9G2xQY=
 github.com/sikalabs/sikalabs-kubernetes-homepage v0.0.0-20251106121505-ca9e5b9ed6f8/go.mod h1:MjM3P4+LiaO+TZ6WfUTMvbqcrROLPM7Mh45czikftvQ=
-github.com/sikalabs/slr v0.33.1-0.20260205224423-bd32eb08b854 h1:Xqa5mOlvohxXyCRGsE5DJ4/tCxmAOA1p2wjSY2wdXfE=
-github.com/sikalabs/slr v0.33.1-0.20260205224423-bd32eb08b854/go.mod h1:bCAwKKvsUtqScMg2zZGE3XH0ewl4X/IUw7+PoUdOkUs=
-github.com/sikalabs/slu v0.97.1-0.20260205173328-bdebf7e13249 h1:Y5SDz8NmJotWsz4BTRW0QK3HuH3D2VhBBaYrnrAXAFw=
-github.com/sikalabs/slu v0.97.1-0.20260205173328-bdebf7e13249/go.mod h1:+Z9z/hCo9epdmOlmmKe1p5GThwjdxlyszfDPaVVd/2o=
+github.com/sikalabs/slr v0.33.1-0.20260205230049-6fbb837369c0 h1:xxyR+7LomRTMbPb5+ro+hEJhWtXKBBQ4OZCg2ebB8yw=
+github.com/sikalabs/slr v0.33.1-0.20260205230049-6fbb837369c0/go.mod h1:6WQ9av3wbevH+FoDC1NhUT+gw4P2EQIc+t+3F8+CrF8=
+github.com/sikalabs/slu v0.97.1-0.20260205230314-a8050906a8ad h1:Cvh1hP7GYAwljm8kPsj+ZfC+XCtRBYyIAjCGftdG4FA=
+github.com/sikalabs/slu v0.97.1-0.20260205230314-a8050906a8ad/go.mod h1:+Z9z/hCo9epdmOlmmKe1p5GThwjdxlyszfDPaVVd/2o=
 github.com/sikalabs/tergum v0.42.1-0.20260202091656-0b98d9876f1a h1:zlVQaI14FQK/p5rlRZCS/SN5bChQekPZVLSNOGe2Sqk=
 github.com/sikalabs/tergum v0.42.1-0.20260202091656-0b98d9876f1a/go.mod h1:6aAPkECXP/L/m7LtNuJ4k3+DVyvUlm7+by5mhbJC6xI=
 github.com/sikalabsx/sikalabs-encrypted-go v0.0.0-20251106010222-3ae1cb81d0b1 h1:Y5S3Os23l2Az4/icFHw7VBKtvgfJDGBy1dBsj9xst38=
