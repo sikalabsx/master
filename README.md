@@ -17,6 +17,14 @@ slu ib master_slr
 slu ib master_tergum
 ```
 
+## Install as Original Binaries on Linux
+
+```bash
+slu ib master_slu && mv /usr/local/bin/master_slu /usr/local/bin/slu
+slu ib master_slr && mv /usr/local/bin/master_slr /usr/local/bin/slr
+slu ib master_tergum && mv /usr/local/bin/master_tergum /usr/local/bin/tergum
+```
+
 ## Build Locally
 
 ```bash
