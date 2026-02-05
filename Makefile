@@ -25,7 +25,7 @@ update-deps:
 	if [ -n "$$(git status --porcelain)" ]; then \
 		echo "Committing changes..."; \
 		git add go.mod go.sum; \
-		git commit -m "deps: update slu@$$SLU_COMMIT, slr@$$SLR_COMMIT, tergum@$$TERGUM_COMMIT"; \
+		git commit -m "deps: update slu@$$SLU_COMMIT, slr@$$SLR_COMMIT, tergum@$$TERGUM_COMMIT" --author="SikaLabs BOT <sikalabsbot@sikalabs.com>"; \
 		echo "Tagging and pushing..."; \
 		slu git tag-next-calver; \
 		git push; \
