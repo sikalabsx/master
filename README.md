@@ -35,6 +35,8 @@ make build-all
 
 ## Update Dependencies
 
+[Run Update Dependencies](https://github.com/sikalabsx/master/actions/workflows/update-deps.yml)
+
 ```bash
 make update-deps
 ```
