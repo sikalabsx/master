@@ -77,6 +77,23 @@ builds:
       - amd64
       - arm64
     binary: master_tergum
+  - id: master_mon
+    main: ./bin/master_mon
+    env:
+      - CGO_ENABLED=0
+    mod_timestamp: "{{ .CommitTimestamp }}"
+    flags:
+      - -trimpath
+    ldflags:
+      - -s
+      - -w
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    binary: master_mon
 
 archives:
   - formats: [ "tar.gz" ]
@@ -86,6 +103,7 @@ archives:
       - master_slu
       - master_slr
       - master_tergum
+      - master_mon
 
 release:
   prerelease: auto
@@ -111,6 +129,7 @@ brews:
       bin.install "master_slu"
       bin.install "master_slr"
       bin.install "master_tergum"
+      bin.install "master_mon"
     test: |
       system "#{bin}/master version"
 
@@ -126,6 +145,7 @@ dockers:
         - master_slu
         - master_slr
         - master_tergum
+        - master_mon
       build_flag_templates:
         - "--platform=linux/amd64"
         - "--label=org.opencontainers.image.created={{.Date}}"
@@ -148,6 +168,7 @@ dockers:
         - master_slu
         - master_slr
         - master_tergum
+        - master_mon
       build_flag_templates:
         - "--platform=linux/arm64"
         - "--label=org.opencontainers.image.created={{.Date}}"
