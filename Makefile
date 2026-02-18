@@ -3,6 +3,7 @@ build-all:
 	go build ./bin/master_slu
 	go build ./bin/master_slr
 	go build ./bin/master_tergum
+	go build ./bin/master_mon
 
 update-deps:
 	@echo "Updating sikalabs/slu..."; \
@@ -20,12 +21,17 @@ update-deps:
 	TERGUM_COMMIT=$$(slu github latest-commit $$REPO --short); \
 	echo "  -> commit $$TERGUM_COMMIT"; \
 	go get github.com/$$REPO@$$TERGUM_COMMIT; \
+	echo "Updating sikalabs/mon..."; \
+	REPO="sikalabs/mon"; \
+	MON_COMMIT=$$(slu github latest-commit $$REPO --short); \
+	echo "  -> commit $$MON_COMMIT"; \
+	go get github.com/$$REPO@$$MON_COMMIT; \
 	echo "Running go mod tidy..."; \
 	go mod tidy; \
 	if [ -n "$$(git status --porcelain)" ]; then \
 		echo "Committing changes..."; \
 		git add go.mod go.sum; \
-		git commit -m "deps: update slu@$$SLU_COMMIT, slr@$$SLR_COMMIT, tergum@$$TERGUM_COMMIT" --author="SikaLabs BOT <sikalabsbot@sikalabs.com>"; \
+		git commit -m "deps: update slu@$$SLU_COMMIT, slr@$$SLR_COMMIT, tergum@$$TERGUM_COMMIT, mon@$$MON_COMMIT" --author="SikaLabs BOT <sikalabsbot@sikalabs.com>"; \
 		echo "Tagging and pushing..."; \
 		slu git tag-next-calver; \
 		git push; \
