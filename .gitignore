@@ -15,6 +15,7 @@
 /master_slu
 /master_slr
 /master_tergum
+/master_mon
 *.exe
 /dist/**
 cobra-docs
