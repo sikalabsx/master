@@ -1327,10 +1327,10 @@ github.com/sikalabs/sikalabs-crypt-go v0.0.0-20251105174759-2ff0fb3fb552 h1:EiLC
 github.com/sikalabs/sikalabs-crypt-go v0.0.0-20251105174759-2ff0fb3fb552/go.mod h1:TrthX6be5utClxOieSRN8T3DOlFZ1oaK/9Ye2oCFaFg=
 github.com/sikalabs/sikalabs-kubernetes-homepage v0.0.0-20251209230004-bf8ccd2e8d1c h1:mt0YTGQNUJuWqkGwkeGnqg1BSJipd8/rLgSsV3zB4XU=
 github.com/sikalabs/sikalabs-kubernetes-homepage v0.0.0-20251209230004-bf8ccd2e8d1c/go.mod h1:MjM3P4+LiaO+TZ6WfUTMvbqcrROLPM7Mh45czikftvQ=
-github.com/sikalabs/slr v0.35.1-0.20260218132746-11d8c90cbdc1 h1:AqEU+UCY6igdH5jAFHgMOpByEQuQShd0BVxDpTNLdlU=
-github.com/sikalabs/slr v0.35.1-0.20260218132746-11d8c90cbdc1/go.mod h1:fPczbWQJzyRa3Hey5MG3hpooQqV3aheP4u3yCbHxFdw=
-github.com/sikalabs/slu v0.98.1-0.20260217134254-b16054b78e22 h1:T54E6VyOfaR9Hc4cweuRSdvH5RVwb+EHdSdFjVKqGL8=
-github.com/sikalabs/slu v0.98.1-0.20260217134254-b16054b78e22/go.mod h1:GdX18EQBW+PPzi8uoeF+qJsS4dc6tYNS4U7wk56ZHFs=
+github.com/sikalabs/slr v0.36.1-0.20260219000757-d85ee7a1f004 h1:0pSdGBkmQnrIaTa4Twa9GYmHDHnGlSamFZnc2/9iRY8=
+github.com/sikalabs/slr v0.36.1-0.20260219000757-d85ee7a1f004/go.mod h1:fPczbWQJzyRa3Hey5MG3hpooQqV3aheP4u3yCbHxFdw=
+github.com/sikalabs/slu v0.98.1-0.20260218171057-d290a41f8db0 h1:WGmDAWqOTZPD+lbDDVTpcwQ8Zub4k5QyS3PX4w1BPes=
+github.com/sikalabs/slu v0.98.1-0.20260218171057-d290a41f8db0/go.mod h1:GdX18EQBW+PPzi8uoeF+qJsS4dc6tYNS4U7wk56ZHFs=
 github.com/sikalabs/tergum v0.42.1-0.20260202091656-0b98d9876f1a h1:zlVQaI14FQK/p5rlRZCS/SN5bChQekPZVLSNOGe2Sqk=
 github.com/sikalabs/tergum v0.42.1-0.20260202091656-0b98d9876f1a/go.mod h1:6aAPkECXP/L/m7LtNuJ4k3+DVyvUlm7+by5mhbJC6xI=
 github.com/sikalabsx/sikalabs-encrypted-go v0.0.0-20251106012324-fa849aeac6ab h1:mkDjj9oKbT44LwhtpIt+EgZo5yGDrdpaWVF5AeXfyi8=
