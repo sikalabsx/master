@@ -1329,8 +1329,8 @@ github.com/sikalabs/sikalabs-kubernetes-homepage v0.0.0-20251209230004-bf8ccd2e8
 github.com/sikalabs/sikalabs-kubernetes-homepage v0.0.0-20251209230004-bf8ccd2e8d1c/go.mod h1:MjM3P4+LiaO+TZ6WfUTMvbqcrROLPM7Mh45czikftvQ=
 github.com/sikalabs/slr v0.36.1-0.20260219005518-f113374995b9 h1:7YTQlc04DytNsHeU1lU0otIjCZ8ZRkZK91Ew747wwss=
 github.com/sikalabs/slr v0.36.1-0.20260219005518-f113374995b9/go.mod h1:fPczbWQJzyRa3Hey5MG3hpooQqV3aheP4u3yCbHxFdw=
-github.com/sikalabs/slu v0.98.1-0.20260219003725-72c9d8eebd7b h1:7nrLn1bZcgj+QmKG0A+dmJh7TB9GE3g6uZMCkAi/ZEQ=
-github.com/sikalabs/slu v0.98.1-0.20260219003725-72c9d8eebd7b/go.mod h1:GdX18EQBW+PPzi8uoeF+qJsS4dc6tYNS4U7wk56ZHFs=
+github.com/sikalabs/slu v0.98.1-0.20260219012939-4c11023234bb h1:SwUFY0Lg2RZgWq8Y0l/jrrXIXGqJ2S2rVHpgELk3peY=
+github.com/sikalabs/slu v0.98.1-0.20260219012939-4c11023234bb/go.mod h1:GdX18EQBW+PPzi8uoeF+qJsS4dc6tYNS4U7wk56ZHFs=
 github.com/sikalabs/tergum v0.42.1-0.20260202091656-0b98d9876f1a h1:zlVQaI14FQK/p5rlRZCS/SN5bChQekPZVLSNOGe2Sqk=
 github.com/sikalabs/tergum v0.42.1-0.20260202091656-0b98d9876f1a/go.mod h1:6aAPkECXP/L/m7LtNuJ4k3+DVyvUlm7+by5mhbJC6xI=
 github.com/sikalabsx/sikalabs-encrypted-go v0.0.0-20251106012324-fa849aeac6ab h1:mkDjj9oKbT44LwhtpIt+EgZo5yGDrdpaWVF5AeXfyi8=
