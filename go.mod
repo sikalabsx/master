@@ -37,9 +37,9 @@ replace (
 
 require (
 	github.com/sikalabs/mon v0.3.1-0.20260303145249-874178bef2dc
-	github.com/sikalabs/slr v0.37.1-0.20260303232755-031e739c642f
-	github.com/sikalabs/slu v0.99.1-0.20260303232121-bbc757731110
-	github.com/sikalabs/tergum v0.42.1-0.20260202091656-0b98d9876f1a
+	github.com/sikalabs/slr v0.38.1-0.20260305235311-cff0a3eada81
+	github.com/sikalabs/slu v0.99.1-0.20260305222346-6f38991013ee
+	github.com/sikalabs/tergum v0.42.1-0.20260304000804-b220ee089545
 	github.com/spf13/cobra v1.10.2
 )
 
@@ -181,7 +181,7 @@ require (
 	github.com/go-openapi/swag/yamlutils v0.25.4 // indirect
 	github.com/go-redis/cache/v9 v9.0.0 // indirect
 	github.com/go-redis/redis/v8 v8.11.5 // indirect
-	github.com/go-resty/resty/v2 v2.17.1 // indirect
+	github.com/go-resty/resty/v2 v2.17.2 // indirect
 	github.com/go-sql-driver/mysql v1.9.3 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/goccy/go-json v0.10.5 // indirect
@@ -340,6 +340,9 @@ require (
 	github.com/sikalabs/scr v0.0.0-20260204224902-04923533d0e8 // indirect
 	github.com/sikalabs/sikalabs-crypt-go v0.0.0-20251105174759-2ff0fb3fb552 // indirect
 	github.com/sikalabs/sikalabs-kubernetes-homepage v0.0.0-20251209230004-bf8ccd2e8d1c // indirect
+	github.com/sikalabs/sikalabs-kubernetes-oidc-login v0.1.0 // indirect
+	github.com/sikalabsx/gocurl v0.0.0-20260304004350-8838a553586a // indirect
+	github.com/sikalabsx/gohost v0.0.0-20260304005520-4acdbf847c76 // indirect
 	github.com/sikalabsx/sikalabs-encrypted-go v0.0.0-20251106012324-fa849aeac6ab // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
 	github.com/skeema/knownhosts v1.3.2 // indirect
@@ -410,9 +413,9 @@ require (
 	gorm.io/driver/postgres v1.6.0 // indirect
 	gorm.io/driver/sqlite v1.6.0 // indirect
 	gorm.io/gorm v1.31.1 // indirect
-	k8s.io/api v0.35.1 // indirect
+	k8s.io/api v0.35.2 // indirect
 	k8s.io/apiextensions-apiserver v0.35.1 // indirect
-	k8s.io/apimachinery v0.35.1 // indirect
+	k8s.io/apimachinery v0.35.2 // indirect
 	k8s.io/apiserver v0.35.1 // indirect
 	k8s.io/cli-runtime v0.35.1 // indirect
 	k8s.io/client-go v11.0.1-0.20190816222228-6d55c1b1f1ca+incompatible // indirect
